@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+   
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+   font-weight: bold;
+   color: rgb(23, 23, 62)
+}
+#logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 75px;
+    position: relative;
+    top: -12px;
+}
+    #try{
+        width: 95px;
+        height: 40px;
+        border-radius: 4%;
+        border: 1px solid black;
+        background-color: rgb(20, 139, 40);
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+           color: aliceblue;
+           position: relative;
+          top: -12px;
+    }
+    #contact{
+        margin-left: 70px;
+        display: inline-block;
+        position: relative;
+          top: -12px;
+        
+    }
+    #number{
+           transform: translate(-15px,0px);
+    }
+    #dropdown{
+        background-color: white;
+        border: 0px ;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: medium;
+        height: 30px;
+        transform: translate(0px,-7px);
+    }
+    .update{
+        height: 55px;
+        width: 100%;
+        background-color: rgb(34, 34, 52);
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Read{
+        color: white;
+        margin-left: 30px;
+    }
+
+    .try{
+        height: 433px;
+        width: 100%;
+        display: flex;
+        border-bottom: 25px;
+    }
+    .info{
+        height: 433px;
+        width: 50%;
+
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+    }
+    .vid{
+        height: 433px;
+        width: 50%;
+        background-image: url(vid.jpg.png);
+        background-size: cover;
+       
+    }
+
+ #suite{
+        font-size: 59px;
+        color: rgb(34, 34, 52);
+        margin-top: 49px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+
+    }
+    #sales{
+        font-weight: lighter;
+        font-size: 23px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    .start{
+        height: 100px;
+        width: 100%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #free{
+        width: 130px;
+        height: 48px;
+        border-radius: 4%;
+        border: 1px solid rgb(9, 9, 11);
+        background-color: rgb(64, 102, 200);
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+           color: aliceblue;
+           position: relative;
+          top: -12px;
+          margin-right: 30px;
+
+    }
+    #Watch{
+        width: 130px;
+        height: 48px;
+        border-radius: 4%;
+        border: 1px solid rgb(49, 12, 173);
+        background-color: rgb(255, 255, 255);
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+           color: rgb(49, 12, 173);
+           position: relative;
+          top: -12px;
+    }
+
+.learn{
+    width: 100%;
+    height: 172px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 37px;
+    color: rgb(34, 34, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
